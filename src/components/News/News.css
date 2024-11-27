@@ -1,0 +1,22 @@
+hr{
+    opacity: 0.25;
+}
+
+.news_wrapper{
+    padding-bottom: 4rem;
+}
+
+.news_heading{
+    padding-bottom: 2rem;
+}
+
+.news_title{
+    max-width: 500px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.news_date{
+    color: #666;
+    padding-bottom: 1.5rem;
+}

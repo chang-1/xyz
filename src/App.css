@@ -1,0 +1,150 @@
+
+/*Typography*/
+h1{
+  font-size: 3.375rem;
+  line-height: calc(3.375rem*1.1);
+  font-family: "DM Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0px;
+}
+
+h2{
+  font-size: 2.25rem;
+  line-height: 3.375rem;
+  font-family: "DM Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0px;
+}
+
+h3{
+  font-size: 2.25rem;
+  line-height: calc(2.25rem*1.5);
+  font-family: "DM Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px;
+}
+
+h4{
+  font-size: 1.5rem;
+  line-height: 1.5rem * 1.5;
+  font-family: "DM Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0px;
+}
+
+h5{
+  font-size: 1.5rem;
+  line-height: calc(1.5rem * 1.2);
+  font-family: "DM Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px;
+}
+
+h6{
+  font-size: 1rem;
+  line-height: calc(1rem * 1.5);
+  font-family: "DM Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0px;
+}
+
+p{
+  font-size: 1rem;
+  line-height: calc(1rem * 1.5);
+  font-family: "DM Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px;
+  flex: 0 0 75%; /* 9/12 width */
+  max-width: 600px;
+  min-width: 100px;
+}
+
+a{
+  line-height: calc(1rem * 1.5);
+  font-family: "DM Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover{
+  font-size: 1rem;
+  line-height: 1rem * 1.5;
+  font-family: "DM Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px;
+  color:#0055a9;
+  text-decoration: underline;
+}
+
+ul{
+  display: flex;
+  padding-left: 0px;
+  flex-wrap:wrap;
+}
+
+li{
+  list-style-type: none;
+  padding-right: 1rem;
+}
+
+small{
+  font-size: 0.8rem;
+  line-height: 0.8rem * 1.5;
+  font-family: "DM Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  max-width: 1204px;
+  justify-content: center;
+  margin: 0 auto;
+  gap:32px;
+  flex-wrap: wrap;
+  padding: 0px 32px;
+}
+
+.col {
+  margin: 0% 2.12vw 0% 0%;
+  /* Flex grow: 1 allows columns to grow equally */
+}
+
+/* Define width for each column size */
+.col-1 { flex-basis: 6.08vw; max-width: 87.55px; }
+.col-2 { flex-basis: 14.28vw; max-width: 205.63px; }
+.col-3 { flex-basis: 22.48vw; max-width: 323.71px; }
+.col-4 { flex-basis: 30.68vw; max-width: 441.79px; }
+.col-5 { flex-basis: 38.88vw; max-width: 559.87px; }
+.col-6 { flex-basis: 47.08vw; max-width: 677.95px; }
+.col-7 { flex-basis: 55.28vw; max-width: 796.03px; }
+.col-8 { flex-basis: 63.48vw; max-width: 914.11px; }
+.col-9 { flex-basis: 71.68vw; max-width: 1032.19px; }
+.col-10 { flex-basis: 79.88vw; max-width: 1150.27px; }
+.col-11 { flex-basis: 88.08vw; max-width: 1268.35px; }
+.col-12 { flex-basis: 96.28vw; max-width: 1386.43px; }
+
+
+.main{
+  display: flex;
+  max-width: 1400px;
+  justify-content: center;
+  gap:32px;
+}

@@ -1,0 +1,30 @@
+.aside--container{
+    display: block;
+    position: sticky;
+    top: 32px;
+    
+}
+
+.aside_nav_link{
+    color: #2b2b2b;
+}
+
+.aside_nav_link:hover{
+    text-decoration: none;
+}
+
+.aside_nav_item{
+    padding: 8px 8px;
+}
+
+.aside_nav_item:hover{
+    background-color: #F4F7FF;
+    color:#0055a9;
+}
+
+
+@media only screen and (max-width:800px){
+    aside{
+        display: none;
+    }
+}

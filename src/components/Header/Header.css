@@ -1,0 +1,43 @@
+/*Header*/
+
+header{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 96px;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.05)) drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1));
+  }
+
+
+  
+  .header--wrapper{
+    flex-wrap: wrap-reverse !important;
+  }
+  
+  .header_job_description{
+    padding-bottom: 1rem;
+  }
+
+  .header_image--container{
+    width: 200px;
+    height: 200px; 
+    overflow: hidden;
+  }
+  
+  .header_image{
+    object-fit: cover; /* Ensures the image doesn't stretch */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Makes the image circular */
+  }
+
+
+  @media only screen and (max-width: 800px) {
+
+    .header_image--container{
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+    }
+      
+  }
