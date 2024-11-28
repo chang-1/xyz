@@ -40,12 +40,13 @@ export default function Header(props){
           </div>
           <div className="header--wrapper row">
             <div className={`header_text--container ${isMobile?'col-12':'col-7'}`}>
-            <h1 className="header_name">Isaac Chang</h1>
-            <p className="header_job_description">Research Scientist</p>
+            <h1 className="header_name">Jorge Chang</h1>
+            <p className="header_job_description">Research Associate</p>
             <p className="header_body">
-                Google DeepMind in San Francisco Leading a small team that mostly works on NeRF.
-                At Google I've worked on Glass, Lens Blur, HDR+, VR, Portrait Mode, Portrait Light, and Maps.
-                I did my PhD at UC Berkeley, where I was advised by Jitendra Malik. I've received the PAMI Young Researcher Award.
+                I am a Research Associate in the Department of Neuroscience at Brown University, working with Dr. Michael Paradiso to develop accessible technology 
+                for legally blind individuals. My research is supported by the Veteran Affairs Medical Center and the Center for Neurorestoration and Neurotechnology (CfNN).
+
+                I also conduct research at the intersection of computer vision and neuroscience in the (awesome) Dr. Thomas Serre Lab.
             </p>
             <nav>
                 <ul>
