@@ -1,5 +1,7 @@
 import '../SelectedPub/SelectedPub.css'
 import Image from '../../assets/images/zoriginal1.gif'
+import Bobbly from '../../assets/images/bobbly.gif'
+import CoolImage from '../../assets/images/image.jpg'
 
 export default function SelectedPub(props){
     const isMobile = props.width < 800;
@@ -25,17 +27,6 @@ export default function SelectedPub(props){
                     <a href="https://github.com/jorgechang/3DWGAN" target="_blank" rel="noopener noreferrer">project page</a>
                 </p>
 
-                <div className="research_collab">
-                    <a className="research_colleague" href="/">Alexander Mai,</a>
-                    <a className="research_colleague" href="/">Peter Hedman,</a>
-                    <a className="research_colleague" href="/">George Kopanas,</a>
-                    <a className="research_colleague" href="/">Dor Verbin,</a>
-                    <a className="research_colleague" href="/"> David Futschik,</a>
-                    <a className="research_colleague" href="/">Qiangeng Xu,</a>
-                    <a className="research_colleague" href="/">Falko Kuester,</a>
-                    <a className="research_colleague" href="/">Jonathan T. Barron,</a>
-                    <a className="research_colleague" href="/">Yinda Zhang</a>
-                </div>
             </div>
             <div className={`research_image--container ${isMobile?'col-12':'col-3'}`}>
                 <img className="research_image" src={Image} alt="#"/>
@@ -48,29 +39,58 @@ export default function SelectedPub(props){
             <div className={`${isMobile?'col-12':'col-4'}`}>
                 <a href="/">
                     <h5 className="research_title">
-                        EVER: Exact Volumetric Ellipsoid Rendering for Real-time View Synthesis
+                        Conversion of artiﬁcial neural network layers to spiking neurons.
                     </h5>
                 </a>
-                <p className="research_body">Raytracing constant-density ellipsoids yields more accurate and flexible radiance fields than splatting Gaussians, and still runs in real-time</p>
+                <p className="research_body">Ablation studies and Conversion of ReLU, Batch Normalization, Max-Pooling, and Softmax layers in VGG16 to spiking architectures.</p>
                 <p className="research_body">
-                    arXiv, 2024
-                    <br/>
-                    project page / arXiv
+                    <a href="https://github.com/jorgechang/SpikingNeuralNetworks" target="_blank" rel="noopener noreferrer">project page</a>
                 </p>
-                <div className="research_collab">
-                    <a className="research_colleague" href="/">Alexander Mai,</a>
-                    <a className="research_colleague" href="/">Peter Hedman,</a>
-                    <a className="research_colleague" href="/">George Kopanas,</a>
-                    <a className="research_colleague" href="/">Dor Verbin,</a>
-                    <a className="research_colleague" href="/"> David Futschik,</a>
-                    <a className="research_colleague" href="/">Qiangeng Xu,</a>
-                    <a className="research_colleague" href="/">Falko Kuester,</a>
-                    <a className="research_colleague" href="/">Jonathan T. Barron,</a>
-                    <a className="research_colleague" href="/">Yinda Zhang</a>
-                </div>
+
             </div>
             <div className={`research_image--container ${isMobile?'col-12':'col-3'}`}>
-                <img className="research_image" src={Image} alt="#"/>
+                <img className="research_image" src={CoolImage} alt="#"/>
+            </div>
+        </div>
+
+        {/* Research Item 1*/}
+        <div className="research_item--wrapper">
+            <div className={`${isMobile?'col-12':'col-4'}`}>
+                <a href="/">
+                    <h5 className="research_title">
+                        Conversion of artiﬁcial neural network layers to spiking neurons.
+                    </h5>
+                </a>
+                <p className="research_body">Ablation studies and Conversion of ReLU, Batch Normalization, Max-Pooling, and Softmax layers in VGG16 to spiking architectures.</p>
+                <p className="research_body">
+                    <a href="https://github.com/jorgechang/SpikingNeuralNetworks" target="_blank" rel="noopener noreferrer">project page</a>
+                </p>
+
+            </div>
+            <div className={`research_image--container ${isMobile?'col-12':'col-3'}`}>
+                <img className="research_image" src={CoolImage} alt="#"/>
+            </div>
+        </div>
+
+        {/* Research Item 1*/}
+        <div className="research_item--wrapper">
+            <div className={`${isMobile?'col-12':'col-4'}`}>
+                <a href="/">
+                    <h5 className="research_title">
+                    ”Blobby objects” or isosurface implementation
+                    </h5>
+                </a>
+                <p className="research_body">
+                    C++ and OpenGL implementation of <a href="https://en.wikipedia.org/wiki/Metaballs" target="_blank" rel="noopener noreferrer">Metaballs</a> with GPU Ray Marching, and multiple shaders.
+                </p>
+
+                <p className="research_body">
+                    <a href="https://github.com/jorgechang/Metaballs" target="_blank" rel="noopener noreferrer">project page</a>
+                </p>
+
+            </div>
+            <div className={`research_image--container ${isMobile?'col-12':'col-3'}`}>
+                <img className="research_image" src={Bobbly} alt="#"/>
             </div>
         </div>
         
