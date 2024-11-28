@@ -61,6 +61,7 @@ export default function App() {
         />
         <main className={`${windowSize.width < 800 ? 'col-12' : 'col-8'}`}>
           <News width={windowSize.width}/>
+          <Research width={windowSize.width}/>
           <SelectedPub width={windowSize.width}/>
         </main>
       </div>
