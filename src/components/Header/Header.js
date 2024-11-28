@@ -43,10 +43,13 @@ export default function Header(props){
             <h1 className="header_name">Jorge Chang</h1>
             <p className="header_job_description">Research Associate</p>
             <p className="header_body">
-                I am a Research Associate in the Department of Neuroscience at Brown University, working with Dr. Michael Paradiso to develop accessible technology 
-                for legally blind individuals. My research is supported by the Veteran Affairs Medical Center and the Center for Neurorestoration and Neurotechnology (CfNN).<br /><br />
+                <p className="header_body">
+                I am a Research Associate in the <a href="https://www.brown.edu/academics/neuroscience/" target="_blank" rel="noopener noreferrer">Department of Neuroscience</a> at <a href="https://www.brown.edu/" target="_blank" rel="noopener noreferrer">Brown University</a>, working with <a href="https://vivo.brown.edu/display/mparadis" target="_blank" rel="noopener noreferrer">Dr. Michael Paradiso</a> to develop accessible technology 
+                for legally blind individuals. My research is supported by the <strong>Veteran Affairs Medical Center</strong> and the <strong>Center for Neurorestoration and Neurotechnology (CfNN)</strong>.<br /><br />
+            
+                I also conduct research in the (awesome) <a href="https://serre-lab.clps.brown.edu/person/thomas-serre/" target="_blank" rel="noopener noreferrer">Dr. Thomas Serre Lab</a> at the intersection of computer vision and neuroscience, building hypotheses to understand the mechanisms that support visual perception.
+            </p>
 
-                I also conduct research in the (awesome) Dr. Thomas Serre Lab at the intersection of computer vision and neuroscience, building hypotheses to understand the mechanisms that support visual perception.
             </p>
             <nav>
                 <ul>
