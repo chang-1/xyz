@@ -47,7 +47,7 @@ export default function Header(props){
                 I am a Research Associate in the <a href="https://www.brown.edu/academics/neuroscience/" target="_blank" rel="noopener noreferrer">Department of Neuroscience</a> at <a href="https://www.brown.edu/" target="_blank" rel="noopener noreferrer">Brown University</a>, working with <a href="https://vivo.brown.edu/display/mparadis" target="_blank" rel="noopener noreferrer">Dr. Michael Paradiso</a> to develop accessible technology 
                 for legally blind individuals. My research is supported by the <strong>Veteran Affairs Medical Center</strong> and the <strong>Center for Neurorestoration and Neurotechnology (CfNN)</strong>.<br /><br />
             
-                I also conduct research in the (awesome) <a href="https://serre-lab.clps.brown.edu/person/thomas-serre/" target="_blank" rel="noopener noreferrer">Dr. Thomas Serre Lab</a> at the intersection of computer vision and neuroscience, building hypotheses to understand the mechanisms that support visual perception.
+                I also conduct research in the (awesome) <a href="https://serre-lab.clps.brown.edu/person/thomas-serre/" target="_blank" rel="noopener noreferrer">Dr. Thomas Serre</a> Lab at the intersection of computer vision and neuroscience, building hypotheses to understand the mechanisms that support visual perception.
             </p>
 
             </p>
