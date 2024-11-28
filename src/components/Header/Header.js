@@ -1,5 +1,5 @@
 import './Header.css'
-import image from '../../assets/images/image.jpg'
+import image from '../../assets/images/guapo.gif'
 import { SunIcon } from './Icons';
 import { MoonIcon } from './Icons';
 
