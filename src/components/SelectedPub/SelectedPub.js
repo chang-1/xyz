@@ -1,12 +1,12 @@
 import '../SelectedPub/SelectedPub.css'
-import Image from '../../assets/images/image.jpg'
+import Image from '../../assets/images/zoriginal1.gif'
 
 export default function SelectedPub(props){
     const isMobile = props.width < 800;
 
     return(
         <section className={`research ${ isMobile?'col-12':'col-8'}`} id="publication">
-            <h2 className='research_title'> Selected Publications</h2>
+            <h2 className='research_title'> Selected Projects</h2>
             
 
             {/* Research Item 1*/}
@@ -14,15 +14,17 @@ export default function SelectedPub(props){
             <div className={`${isMobile?'col-12':'col-4'}`}>
                 <a href="/">
                     <h5 className="research_title">
-                        EVER: Exact Volumetric Ellipsoid Rendering for Real-time View Synthesis
+                        Wasserstein GAN with gradient penalty for 3d point cloud generation
                     </h5>
                 </a>
-                <p className="research_body">Raytracing constant-density ellipsoids yields more accurate and flexible radiance fields than splatting Gaussians, and still runs in real-time</p>
                 <p className="research_body">
-                    arXiv, 2024
-                    <br/>
-                    project page / arXiv
+                PyTorch implementation inspired by <a href="https://arxiv.org/abs/1707.02392" target="_blank" rel="noopener noreferrer">Learning Representations and Generative Models for 3D Point Clouds</a> that aims to analyze and improve the plain Wasserstein GAN.
                 </p>
+
+                <p className="research_body">
+                    <a href="https://github.com/jorgechang/3DWGAN" target="_blank" rel="noopener noreferrer">project page</a>
+                </p>
+
                 <div className="research_collab">
                     <a className="research_colleague" href="/">Alexander Mai,</a>
                     <a className="research_colleague" href="/">Peter Hedman,</a>
