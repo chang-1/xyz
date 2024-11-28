@@ -1,14 +1,45 @@
 import './Header.css'
 import image from '../../assets/images/image.jpg'
+import { SunIcon } from './Icons';
+import { MoonIcon } from './Icons';
+
 
 export default function Header(props){
 
     const isMobile = props.width < 800;
+    const isDarkMode = props.isDarkMode;
 
     return(
-        <header className=''>
-            <div className="header--wrapper row">
-        <div className={`header_text--container ${isMobile?'col-12':'col-7'}`}>
+       <header className={`header ${isDarkMode?'header-dark':'header-light'}`}>
+          <div className='theme-toggle row'>
+            <div className={`toggle-wrap ${isMobile? 'col-12': 'col-10'}`}>
+          <button
+              onClick={props.toggleTheme}
+              aria-label={`Switch to ${isDarkMode ? "light" : "dark"} mode`}
+              className="theme-toggle-button"
+              style={{
+                "--background-color": isDarkMode ? "#333" : "#ddd",
+              }}
+            >
+              {/* Sun Icon */}
+              <div className="theme-toggle-icon">
+                <SunIcon color={isDarkMode ? "#555" : "black"} /></div>
+
+              {/* Moon Icon */}
+              <div className="theme-toggle-icon">
+                <MoonIcon color={isDarkMode ? "white" : "#555"} /></div>
+
+              {/* Slider */}
+              <div
+                className="theme-toggle-slider"
+                style={{
+                  left: isDarkMode ? "32px" : "3px",
+                }}></div>
+            </button>
+            </div>
+          </div>
+          <div className="header--wrapper row">
+            <div className={`header_text--container ${isMobile?'col-12':'col-7'}`}>
             <h1 className="header_name">Isaac Chang</h1>
             <p className="header_job_description">Research Scientist</p>
             <p className="header_body">

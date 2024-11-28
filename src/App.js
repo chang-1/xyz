@@ -7,6 +7,23 @@ import SelectedPub from './components/SelectedPub/SelectedPub';
 import News from './components/News/News';
 
 export default function App() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+        useEffect(() => {
+            // Apply the theme class to the `html` tag
+            const root = document.documentElement;
+            if (isDarkMode) {
+              root.classList.add("dark-mode");
+              root.classList.remove("light-mode");
+            } else {
+              root.classList.add("light-mode");
+              root.classList.remove("dark-mode");
+            }
+          }, [isDarkMode]);
+        
+          const toggleTheme = () => {
+            isDarkMode? setIsDarkMode(false) : setIsDarkMode(true);
+          };
 
     const [windowSize, setWindowSize] = useState({
       width: window.innerWidth,
@@ -32,9 +49,16 @@ export default function App() {
 
   return (
     <div>
-      <Header width={windowSize.width}/>
+      <Header
+      width={windowSize.width}
+      isDarkMode={isDarkMode}
+      toggleTheme={toggleTheme}
+      />
       <div className='row'>
-        <Aside width={windowSize.width}/>
+        <Aside
+          width={windowSize.width}
+          isDarkMode={isDarkMode}
+        />
         <main className={`${windowSize.width < 800 ? 'col-12' : 'col-8'}`}>
           <Research width={windowSize.width}/>
           <News width={windowSize.width}/>

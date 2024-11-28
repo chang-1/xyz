@@ -1,3 +1,7 @@
+html{
+  transition: background-color 0.3s, color 0.3s;
+}
+
 
 /*Typography*/
 h1{
@@ -147,4 +151,14 @@ small{
   max-width: 1400px;
   justify-content: center;
   gap:32px;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #151525;
+}
+
+.dark-mode {
+  background-color: #151525;
+  color: #ffffff;
 }

@@ -9,6 +9,14 @@
     color: #2b2b2b;
 }
 
+.aside_light{
+    color: #2b2b2b;
+}
+
+.aside_dark{
+    color: #fff;
+}
+
 .aside_nav_link:hover{
     text-decoration: none;
 }
@@ -17,10 +25,16 @@
     padding: 8px 8px;
 }
 
-.aside_nav_item:hover{
+.aside_item_light:hover{
     background-color: #F4F7FF;
     color:#0055a9;
 }
+
+.aside_item_dark:hover{
+    background-color: rgba(255,255,255, 0.04);
+    color:#ffffff;
+}
+
 
 
 @media only screen and (max-width:800px){
