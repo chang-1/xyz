@@ -1,5 +1,5 @@
 import './Header.css'
-import image from '../../assets/images/guapo.gif'
+import image from '../../assets/images/crop.gif'
 import { SunIcon } from './Icons';
 import { MoonIcon } from './Icons';
 
@@ -64,7 +64,7 @@ export default function Header(props){
         </div>
         <div className={`header_image--wrapper ${isMobile?'col-12':'col-3'}`}>
             <div className="header_image--container">
-                <img className="header_image" src={image} alt="Jon Barron" />
+                <img className="header_image" src={image} alt="Jorge" />
             </div>
         </div>
     </div>
