@@ -44,7 +44,7 @@ export default function Header(props){
             <p className="header_job_description">Research Associate</p>
             <p className="header_body">
                 I am a Research Associate in the Department of Neuroscience at Brown University, working with Dr. Michael Paradiso to develop accessible technology 
-                for legally blind individuals. My research is supported by the Veteran Affairs Medical Center and the Center for Neurorestoration and Neurotechnology (CfNN).
+                for legally blind individuals. My research is supported by the Veteran Affairs Medical Center and the Center for Neurorestoration and Neurotechnology (CfNN).<br><br>
 
                 I also conduct research at the intersection of computer vision and neuroscience in the (awesome) Dr. Thomas Serre Lab.
             </p>
