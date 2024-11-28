@@ -14,7 +14,7 @@ export default function SelectedPub(props){
             {/* Research Item 1*/}
             <div className="research_item--wrapper">
             <div className={`${isMobile?'col-12':'col-4'}`}>
-                <a href="/">
+                <a href="https://github.com/jorgechang/3DWGAN" target="_blank" rel="noopener noreferrer">
                     <h5 className="research_title">
                         Wasserstein GAN with gradient penalty for 3d point cloud generation
                     </h5>
@@ -23,9 +23,6 @@ export default function SelectedPub(props){
                 PyTorch implementation inspired by <a href="https://arxiv.org/abs/1707.02392" target="_blank" rel="noopener noreferrer">Learning Representations and Generative Models for 3D Point Clouds</a> that aims to analyze and improve the plain Wasserstein GAN.
                 </p>
 
-                <p className="research_body">
-                    <a href="https://github.com/jorgechang/3DWGAN" target="_blank" rel="noopener noreferrer">project page</a>
-                </p>
 
             </div>
             <div className={`research_image--container ${isMobile?'col-12':'col-3'}`}>
@@ -37,15 +34,12 @@ export default function SelectedPub(props){
         {/* Research Item 1*/}
         <div className="research_item--wrapper">
             <div className={`${isMobile?'col-12':'col-4'}`}>
-                <a href="/">
+                <a href="https://github.com/jorgechang/SpikingNeuralNetworks" target="_blank" rel="noopener noreferrer">
                     <h5 className="research_title">
                         Conversion of artiﬁcial neural network layers to spiking neurons.
                     </h5>
                 </a>
                 <p className="research_body">Ablation studies and Conversion of ReLU, Batch Normalization, Max-Pooling, and Softmax layers in VGG16 to spiking architectures.</p>
-                <p className="research_body">
-                    <a href="https://github.com/jorgechang/SpikingNeuralNetworks" target="_blank" rel="noopener noreferrer">project page</a>
-                </p>
 
             </div>
             <div className={`research_image--container ${isMobile?'col-12':'col-3'}`}>
@@ -56,36 +50,13 @@ export default function SelectedPub(props){
         {/* Research Item 1*/}
         <div className="research_item--wrapper">
             <div className={`${isMobile?'col-12':'col-4'}`}>
-                <a href="/">
-                    <h5 className="research_title">
-                        Conversion of artiﬁcial neural network layers to spiking neurons.
-                    </h5>
-                </a>
-                <p className="research_body">Ablation studies and Conversion of ReLU, Batch Normalization, Max-Pooling, and Softmax layers in VGG16 to spiking architectures.</p>
-                <p className="research_body">
-                    <a href="https://github.com/jorgechang/SpikingNeuralNetworks" target="_blank" rel="noopener noreferrer">project page</a>
-                </p>
-
-            </div>
-            <div className={`research_image--container ${isMobile?'col-12':'col-3'}`}>
-                <img className="research_image" src={CoolImage} alt="#"/>
-            </div>
-        </div>
-
-        {/* Research Item 1*/}
-        <div className="research_item--wrapper">
-            <div className={`${isMobile?'col-12':'col-4'}`}>
-                <a href="/">
+                <a href="https://github.com/jorgechang/Metaballs" target="_blank" rel="noopener noreferrer">
                     <h5 className="research_title">
                     ”Blobby objects” or isosurface implementation
                     </h5>
                 </a>
                 <p className="research_body">
                     C++ and OpenGL implementation of <a href="https://en.wikipedia.org/wiki/Metaballs" target="_blank" rel="noopener noreferrer">Metaballs</a> with GPU Ray Marching, and multiple shaders.
-                </p>
-
-                <p className="research_body">
-                    <a href="https://github.com/jorgechang/Metaballs" target="_blank" rel="noopener noreferrer">project page</a>
                 </p>
 
             </div>
