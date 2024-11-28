@@ -56,7 +56,7 @@ export default function SelectedPub(props){
                     </h5>
                 </a>
                 <p className="research_body">
-                    C++ and OpenGL implementation of <a href="https://en.wikipedia.org/wiki/Metaballs" target="_blank" rel="noopener noreferrer">Metaballs</a> with GPU Ray Marching, and multiple shaders.
+                    C++ and OpenGL implementation of <a href="https://en.wikipedia.org/wiki/Metaballs" target="_blank" rel="noopener noreferrer">Metaballs</a> with GPU Ray Marching and multiple shaders.
                 </p>
 
             </div>
