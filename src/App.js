@@ -60,7 +60,6 @@ export default function App() {
           isDarkMode={isDarkMode}
         />
         <main className={`${windowSize.width < 800 ? 'col-12' : 'col-8'}`}>
-          <Research width={windowSize.width}/>
           <News width={windowSize.width}/>
           <SelectedPub width={windowSize.width}/>
         </main>
