@@ -27,15 +27,15 @@
   }
 
   .header_image--container{
-    width: 200px;
-    height: 200px; 
+    width: 250px;
+    height: 250px; 
     overflow: hidden;
   }
   
   .header_image{
     object-fit: cover; /* Ensures the image doesn't stretch */
-    width: 110%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
     border-radius: 60%; /* Makes the image circular */
   }
 
