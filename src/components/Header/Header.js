@@ -53,7 +53,7 @@ export default function Header(props){
             </p>
             <nav>
                 <ul>
-                    <li> <a href="mailto:jorge_chang@alumni.brown.edu>Email</a> </li>
+                    <li> <a href="mailto:jorge_chang@alumni.brown.edu">Email</a> </li>
                     <li> <a href="https://github.com/jorgechang/">Github</a> </li>
                 </ul>
             </nav>
