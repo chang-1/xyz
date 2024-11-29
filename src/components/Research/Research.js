@@ -7,7 +7,7 @@ export default function Research(props){
     return(
         <section className={`research ${ isMobile?'col-12':'col-8'}`} id="research">
             <h2 className='research_title'> Research Interest</h2>
-            <p className='research_text'>  I'm interested in computer vision, neuroscience, deep learning, and generative AI.</p>
+            <p className='research_text'>  I am interested in reverse engineering visual intelligence to create hypotheses at the intersection of computer vision and neuroscience, ultimately empowering individuals of all abilities.</p>
 
 
             {/* Research Item 1*/}
