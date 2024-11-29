@@ -154,11 +154,11 @@ small{
 }
 
 .light-mode {
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   color: #151525;
 }
 
 .dark-mode {
-  background-color: #232334;
+  background-color: #1a171a;
   color: #ffffff;
 }
