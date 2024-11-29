@@ -86,11 +86,11 @@
 
 
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 910px) {
 
     .header_image--container{
-      width: 150px;
-      height: 150px;
+      width: 160px;
+      height: 160px;
       overflow: hidden;
     }
       
