@@ -89,8 +89,8 @@
   @media only screen and (max-width: 900px) {
 
     .header_image--container{
-      width: 160px;
-      height: 160px;
+      width: 150px;
+      height: 150px;
       overflow: hidden;
     }
       
